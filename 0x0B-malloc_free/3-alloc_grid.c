@@ -18,7 +18,6 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 
 	grid = malloc(height * sizeof(int *)); /*allocate memory for rows*/
-	
 	if (grid == NULL) /* validate memory */
 		return (NULL);
 	for (i = 0; i < height; i++) /*allocate memory for columns of each row*/

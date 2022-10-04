@@ -20,7 +20,6 @@ char *create_array(unsigned int size, char c)
 
 	if (arr == NULL) /* validate memory */
 		return (NULL);
-	
 	while (i < (int)size) /* set array values to char c */
 	{
 		*(arr + i) = c;
