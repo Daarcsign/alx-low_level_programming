@@ -1,0 +1,2 @@
+
+bit manipulatopn read me
